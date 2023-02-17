@@ -1,0 +1,17 @@
+{
+    "name": "Sample App",
+    "dockerComposeFile": "../compose.yml",
+    "service": "app",
+    "workspaceFolder": "/app",
+    "extensions": [
+        "ms-ceintl.vscode-language-pack-ja",
+        "dsznajder.es7-react-js-snippets",
+        "foxundermoon.next-js",
+        "pulkitgangwar.nextjs-snippets",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "PulkitGangwar.nextjs-snippets"
+    ],
+    // コンテナ作成後にGitをインストール
+    "postCreateCommand": "apt-get update && apt-get install -y git"
+}
